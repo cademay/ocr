@@ -1,0 +1,4 @@
+target ‘ocrTool’ do
+  pod 'HotKey'
+end
+

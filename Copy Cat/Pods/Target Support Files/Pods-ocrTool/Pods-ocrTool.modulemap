@@ -1,0 +1,6 @@
+module Pods_ocrTool {
+  umbrella header "Pods-ocrTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

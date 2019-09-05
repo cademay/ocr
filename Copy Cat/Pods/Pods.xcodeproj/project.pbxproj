@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1081475F00D4066B2924610F53D9D347 /* Pods-ocrTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BAF95B864377DD36AD882B2B1037E0 /* Pods-ocrTool-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C8D88375DC18247E51BE1F64204212B /* HotKeysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589A20D450EE2552510F63562E25D27 /* HotKeysController.swift */; };
+		244D50757A77A66610A1528BE3B98F82 /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65419B3DBE04C4EF958D1D6FE3B14F /* HotKey.swift */; };
+		415E63CBEE489B3C061F2D5DB76F088F /* HotKey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3148FF952804ADB8557B369DF2B270C /* HotKey-dummy.m */; };
+		6EF3DBC9D3D6774CCB2FCF4E04C1BCA4 /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCDD7E54C508D63C8AE14DCFF262BAF /* KeyCombo.swift */; };
+		9D81F9E55A12420A05DCC5D531B41AFD /* Pods-ocrTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 033AE7DD75DC4BB998BD92AD521A2127 /* Pods-ocrTool-dummy.m */; };
+		ABE08F94A3E33DE63F2C37AA9FD59417 /* HotKey-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6995D0B98453D2ABA4853115DF0268C /* HotKey-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1AB12807C68B88072285C6F50852F7B /* NSEventModifierFlags+HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0548E3555D18B9ECB16F556AFEB6B4 /* NSEventModifierFlags+HotKey.swift */; };
+		F75E8D2A9832F13D213BF6F6752DEB6E /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC20B1ED6A25F0F8CD1A2B5E2A4D44 /* Key.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5C1EE109CE04D6E8D71F3843E2B60D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4D977E4336D9F2E9E510A33CD1DB6D;
+			remoteInfo = HotKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033AE7DD75DC4BB998BD92AD521A2127 /* Pods-ocrTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ocrTool-dummy.m"; sourceTree = "<group>"; };
+		4376E73F59BE7B33762CB45A83613963 /* libHotKey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHotKey.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F7D920303235EFA33F52F4A6D18F70 /* HotKey-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HotKey-prefix.pch"; sourceTree = "<group>"; };
+		606DFDA896C4403291221FD3376A05FF /* HotKey.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HotKey.modulemap; sourceTree = "<group>"; };
+		65BAB515057CA46C24F5EBE81EDA70F9 /* HotKey.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HotKey.xcconfig; sourceTree = "<group>"; };
+		6DAC20B1ED6A25F0F8CD1A2B5E2A4D44 /* Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Key.swift; path = Sources/HotKey/Key.swift; sourceTree = "<group>"; };
+		6FA35421AC67C3680234EBB4AEB04F20 /* Pods-ocrTool-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ocrTool-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CCDD7E54C508D63C8AE14DCFF262BAF /* KeyCombo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyCombo.swift; path = Sources/HotKey/KeyCombo.swift; sourceTree = "<group>"; };
+		9B65419B3DBE04C4EF958D1D6FE3B14F /* HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKey.swift; path = Sources/HotKey/HotKey.swift; sourceTree = "<group>"; };
+		9D205F05DA4C6F6F19FF76713EA9A87F /* libPods-ocrTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ocrTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6995D0B98453D2ABA4853115DF0268C /* HotKey-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HotKey-umbrella.h"; sourceTree = "<group>"; };
+		A9E36C64C687CE692805505A17B7AF97 /* Pods-ocrTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ocrTool.modulemap"; sourceTree = "<group>"; };
+		B3148FF952804ADB8557B369DF2B270C /* HotKey-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HotKey-dummy.m"; sourceTree = "<group>"; };
+		B5BE8F83078CB751A13C04B108B5B6D1 /* Pods-ocrTool-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ocrTool-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7BAF95B864377DD36AD882B2B1037E0 /* Pods-ocrTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ocrTool-umbrella.h"; sourceTree = "<group>"; };
+		B84F141B25F2F5EE6176FA11BFA30DCE /* Pods-ocrTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ocrTool.debug.xcconfig"; sourceTree = "<group>"; };
+		BE82064075A2244DAD0AE711F419A289 /* Pods-ocrTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ocrTool.release.xcconfig"; sourceTree = "<group>"; };
+		D589A20D450EE2552510F63562E25D27 /* HotKeysController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKeysController.swift; path = Sources/HotKey/HotKeysController.swift; sourceTree = "<group>"; };
+		EB0548E3555D18B9ECB16F556AFEB6B4 /* NSEventModifierFlags+HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSEventModifierFlags+HotKey.swift"; path = "Sources/HotKey/NSEventModifierFlags+HotKey.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14918754B19D906D82D1991725847368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A633991450CF2C33F573C8A3FCF1018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18626E9652DA245F80F030A992D5514B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4376E73F59BE7B33762CB45A83613963 /* libHotKey.a */,
+				9D205F05DA4C6F6F19FF76713EA9A87F /* libPods-ocrTool.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4E4C4DC65886FB7A80D03A5D87FDC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				606DFDA896C4403291221FD3376A05FF /* HotKey.modulemap */,
+				65BAB515057CA46C24F5EBE81EDA70F9 /* HotKey.xcconfig */,
+				B3148FF952804ADB8557B369DF2B270C /* HotKey-dummy.m */,
+				44F7D920303235EFA33F52F4A6D18F70 /* HotKey-prefix.pch */,
+				A6995D0B98453D2ABA4853115DF0268C /* HotKey-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HotKey";
+			sourceTree = "<group>";
+		};
+		66673079F50E8EFCA50F7F5C3DA49E41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25E5095D6273CBFAF55D1EA88FEF2 /* HotKey */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2C6E067882B39AEC5CB3FC30D74ACE6 /* Pods-ocrTool */ = {
+			isa = PBXGroup;
+			children = (
+				A9E36C64C687CE692805505A17B7AF97 /* Pods-ocrTool.modulemap */,
+				6FA35421AC67C3680234EBB4AEB04F20 /* Pods-ocrTool-acknowledgements.markdown */,
+				B5BE8F83078CB751A13C04B108B5B6D1 /* Pods-ocrTool-acknowledgements.plist */,
+				033AE7DD75DC4BB998BD92AD521A2127 /* Pods-ocrTool-dummy.m */,
+				B7BAF95B864377DD36AD882B2B1037E0 /* Pods-ocrTool-umbrella.h */,
+				B84F141B25F2F5EE6176FA11BFA30DCE /* Pods-ocrTool.debug.xcconfig */,
+				BE82064075A2244DAD0AE711F419A289 /* Pods-ocrTool.release.xcconfig */,
+			);
+			name = "Pods-ocrTool";
+			path = "Target Support Files/Pods-ocrTool";
+			sourceTree = "<group>";
+		};
+		C8F71C9996C9FF0CB361C973F0C317AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2C6E067882B39AEC5CB3FC30D74ACE6 /* Pods-ocrTool */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				66673079F50E8EFCA50F7F5C3DA49E41 /* Pods */,
+				18626E9652DA245F80F030A992D5514B /* Products */,
+				C8F71C9996C9FF0CB361C973F0C317AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1E25E5095D6273CBFAF55D1EA88FEF2 /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				9B65419B3DBE04C4EF958D1D6FE3B14F /* HotKey.swift */,
+				D589A20D450EE2552510F63562E25D27 /* HotKeysController.swift */,
+				6DAC20B1ED6A25F0F8CD1A2B5E2A4D44 /* Key.swift */,
+				8CCDD7E54C508D63C8AE14DCFF262BAF /* KeyCombo.swift */,
+				EB0548E3555D18B9ECB16F556AFEB6B4 /* NSEventModifierFlags+HotKey.swift */,
+				3D4E4C4DC65886FB7A80D03A5D87FDC6 /* Support Files */,
+			);
+			path = HotKey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10ABF8CBB92D05DD31EA3D17795C3E30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1081475F00D4066B2924610F53D9D347 /* Pods-ocrTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047E7B0ED4D53F89A7EC7E54124800A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE08F94A3E33DE63F2C37AA9FD59417 /* HotKey-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B9D83AF172E1EF36A41C631E352830C2 /* Pods-ocrTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6EAA51AA9D8F4DF902BFB7A6BD0F2A /* Build configuration list for PBXNativeTarget "Pods-ocrTool" */;
+			buildPhases = (
+				10ABF8CBB92D05DD31EA3D17795C3E30 /* Headers */,
+				70806AB784E3B830E687A73ECAF52648 /* Sources */,
+				14918754B19D906D82D1991725847368 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F3B67C0E83ABC4B01C9A88E9210F042 /* PBXTargetDependency */,
+			);
+			name = "Pods-ocrTool";
+			productName = "Pods-ocrTool";
+			productReference = 9D205F05DA4C6F6F19FF76713EA9A87F /* libPods-ocrTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB4D977E4336D9F2E9E510A33CD1DB6D /* HotKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E694C59A4882A759B3AD05D5C4A64152 /* Build configuration list for PBXNativeTarget "HotKey" */;
+			buildPhases = (
+				E047E7B0ED4D53F89A7EC7E54124800A /* Headers */,
+				21C406F4A315B0CBAC3E08948D6C516C /* Sources */,
+				8A633991450CF2C33F573C8A3FCF1018 /* Frameworks */,
+				4485FBDC1AD99735F1DAAA7CA631873B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotKey;
+			productName = HotKey;
+			productReference = 4376E73F59BE7B33762CB45A83613963 /* libHotKey.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1030;
+				TargetAttributes = {
+					DB4D977E4336D9F2E9E510A33CD1DB6D = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 18626E9652DA245F80F030A992D5514B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4D977E4336D9F2E9E510A33CD1DB6D /* HotKey */,
+				B9D83AF172E1EF36A41C631E352830C2 /* Pods-ocrTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4485FBDC1AD99735F1DAAA7CA631873B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/HotKey/HotKey.modulemap",
+				"${PODS_ROOT}/Headers/Public/HotKey/HotKey-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/HotKey-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/HotKey/HotKey.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/HotKey/HotKey-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21C406F4A315B0CBAC3E08948D6C516C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415E63CBEE489B3C061F2D5DB76F088F /* HotKey-dummy.m in Sources */,
+				244D50757A77A66610A1528BE3B98F82 /* HotKey.swift in Sources */,
+				1C8D88375DC18247E51BE1F64204212B /* HotKeysController.swift in Sources */,
+				F75E8D2A9832F13D213BF6F6752DEB6E /* Key.swift in Sources */,
+				6EF3DBC9D3D6774CCB2FCF4E04C1BCA4 /* KeyCombo.swift in Sources */,
+				C1AB12807C68B88072285C6F50852F7B /* NSEventModifierFlags+HotKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70806AB784E3B830E687A73ECAF52648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D81F9E55A12420A05DCC5D531B41AFD /* Pods-ocrTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F3B67C0E83ABC4B01C9A88E9210F042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HotKey;
+			target = DB4D977E4336D9F2E9E510A33CD1DB6D /* HotKey */;
+			targetProxy = 3B5C1EE109CE04D6E8D71F3843E2B60D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		229E005B75962971E00C8574DF032862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE82064075A2244DAD0AE711F419A289 /* Pods-ocrTool.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-ocrTool/Pods-ocrTool.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		597E092427DF423992C59C814880FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		921395CFC56FF6EDB11AAAAFE8157F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BAB515057CA46C24F5EBE81EDA70F9 /* HotKey.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/HotKey/HotKey-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/HotKey/HotKey.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HotKey;
+				PRODUCT_NAME = HotKey;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AAE23136AF7E9F436C07BDB6063037D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BAB515057CA46C24F5EBE81EDA70F9 /* HotKey.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/HotKey/HotKey-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/HotKey/HotKey.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HotKey;
+				PRODUCT_NAME = HotKey;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E721DB6E39E49C8F67AEEA5AEB9DD2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B84F141B25F2F5EE6176FA11BFA30DCE /* Pods-ocrTool.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-ocrTool/Pods-ocrTool.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */,
+				597E092427DF423992C59C814880FE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6EAA51AA9D8F4DF902BFB7A6BD0F2A /* Build configuration list for PBXNativeTarget "Pods-ocrTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E721DB6E39E49C8F67AEEA5AEB9DD2A9 /* Debug */,
+				229E005B75962971E00C8574DF032862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E694C59A4882A759B3AD05D5C4A64152 /* Build configuration list for PBXNativeTarget "HotKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE23136AF7E9F436C07BDB6063037D9 /* Debug */,
+				921395CFC56FF6EDB11AAAAFE8157F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
